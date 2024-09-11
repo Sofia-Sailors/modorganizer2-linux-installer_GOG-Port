@@ -52,7 +52,7 @@ trap handle_error EXIT
 
 if [ "$UID" == "0" ]; then
 	log_error "Attempted to run as root"
-	log_error "Please follow the install instructions provided at https://github.com/rockerbacon/modorganizer2-linux-installer"
+	log_error "Please (don't) follow the install instructions provided at https://github.com/rockerbacon/modorganizer2-linux-installer"
 	exit 1
 fi
 
